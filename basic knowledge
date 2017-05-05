@@ -1,0 +1,33 @@
+JSON: JavaScript对象表示法 （Java Script Object Notation）
+JSON是存储和交换文本信息的存储语法，类似XML。
+JSON比XML更小更灵巧跟易解析。
+JSON是轻量级的文本交换格式。
+JSON独立于语言
+JSON是JavaScript语法的子集
+
+example:
+{
+  "employees":[
+   {"firstname":"xavier", "lastname"：“lei”},
+   {"firstname":"sandy", "lastname":"zhao"},
+   {"firstname":"chevalier", "lastname":"zhang"}
+  ]
+}
+这个employees包含三个对象的数组。
+
+JSON语法规则：
+数据在名称/值对中
+数据由逗号分割
+花括号保存对象
+方括号保存数组
+
+JSON名称/值对
+书写格式 “名称”：“值对”
+
+JSON值
+数字（整数，浮点数）
+字符串（在双引号中）
+逻辑值（true or false）
+数组（在方括号中）
+对象（在花括号中）
+null
